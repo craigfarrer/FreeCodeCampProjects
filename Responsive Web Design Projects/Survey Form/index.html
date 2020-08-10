@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FreeCodeCamp Survey</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="FreeCodeCamp Survey" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/fccLogo.jpg" alt="" width="80px" height="80px">
+    </div>
+    <h1 id="title">FreeCodeCamp Survey</h1>
+  </header>
+
+  <div class="container">
+    <p id="description">What are your thoughts on FreeCodeCamps Responsive Web Design module?</p>
+
+    <form id="survey-form">
+      <div class="form-item-margin" id="about-you">
+      <label id="name-label" class="display-block" for="name"><span class="required">*</span>Name:</label>
+      <input id="name" type="text" name="name" placeholder="Enter your Name" autofocus required>
+      <label id="email-label" class="display-block" for="email"><span class="required">*</span>Email:</label>
+      <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+      <label id="number-label" class="display-block" for="number"><span class="required">*</span>Age:</label>
+      <input id="number" type="number" name="age" min="1" max="100" placeholder="Enter your Age" required>
+    </div>
+
+      <fieldset class="form-item-margin" id="useful-options">
+        <legend>Did you find the module useful?</legend>
+        <div>
+        <label for="fcc">
+          <input id="very" type="radio" name="useful" value="Very Useful" >
+          Very Useful
+        </label>
+        <label for="ultron">
+          <input id="sortof" type="radio" name="useful" value="Sort Of" >
+          Sort Of
+        </label>
+        <label for="infinity-war">
+          <input id="useless" type="radio" name="useful" value="Useless" >
+          Useless
+        </label>
+      </div>
+      </fieldset>
+
+      <fieldset class="form-item-margin" id="favorite-section-options">
+        <legend>What was your favourite section?</legend>
+        <div>
+        <label for="basic-html">
+          <input id="basic-html" type="checkbox" name="favorite-section" value="Basic HTML">
+          Basic HTML and HTML5
+        </label>
+        <label for="basic-css">
+          <input id="basic-css" type="checkbox" name="favorite-section" value="Basic CSS">
+          Basic CSS
+        </label>
+        <label for="avd">
+          <input id="avd" type="checkbox" name="favorite-section" value="AVD">
+          Applied Visual Design
+        </label>
+        <label for="aa">
+          <input id="aa" type="checkbox" name="favorite-section" value="AA">
+          Applied Accessibility
+        </label>
+        <label for="principles">
+          <input id="principles" type="checkbox" name="favorite-section" value="Principles">
+          Responsive Web Design Principles
+        </label>
+        <label for="flexbox">
+          <input id="flexbox" type="checkbox" name="favorite-section" value="Flexbox">
+          CSS Flexbox
+        </label>
+        <label for="grid">
+          <input id="grid" type="checkbox" name="favorite-section" value="Grid">
+          CSS Grid
+        </label>
+        </div>
+      </fieldset>
+
+      <div class="form-item-margin" id="dropdown">
+      <label for="enjoyment">Did you enjoy this module? </label>
+      <select id="enjoyment" name="enjoyment">
+        <option value="Very-Enjoyable" selected>Very Enjoyable</option>
+        <option value="Enjoyable">Enjoyable</option>
+        <option value="Ok">OK</option>
+        <option value="Boring">Boring</option>
+        <option value="Very-Boring">Very Boring</option>
+      </select>
+      </div>
+
+      <div class="form-item-margin" id="textarea">
+      <label class="display-block" for="message">What would you ask FCC to improve upon? </label>
+      <textarea id="message" name="message" placeholder="Ideas, Improvements"></textarea>
+      </div>
+
+      <button class="form-item-margin" id="submit" type="submit" name="button">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="contacts">
+      <a class="footer-link" href="https://www.linkedin.com/in/craig-farrer-69971615a/" target="_blank">
+        <span class="icon"><i class="fab fa-linkedin fa-2x"></i></span>
+      </a>
+    </div>
+    <div class="webmaster">
+      <p>&copy Craig Farrer</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

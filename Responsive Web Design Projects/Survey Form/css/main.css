@@ -1,0 +1,150 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header #title {
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.10em;
+}
+
+.container {
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 10px;
+  padding: 50px;
+  border: 5px solid #0E7FC5;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.95);
+}
+
+.container p {
+  text-align: center;
+  border: 2px solid #0E7FC5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#description {
+  align-self: center;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#survey-form #about-you{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+#survey-form #about-you label {
+  padding: 8px;
+}
+
+.required {
+  color: red;
+}
+
+fieldset {
+  border: 2px solid #0E7FC5;
+}
+
+#survey-form #useful-options div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#survey-form #useful-options div label {
+  margin: 4px;
+}
+
+#survey-form #favorite-section-options div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#survey-form #dropdown {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.form-item-margin {
+  margin: 10px;
+}
+
+#textarea {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+#submit {
+  padding: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+  border: 1px solid #0E7FC5;
+  background-color: #0E7FC5;
+  border-radius: 5px;
+  color: white;
+}
+
+#submit:hover {
+  background-color: #0f73c4;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding-top: 10px;
+}
+
+footer p {
+   font-weight: bold;
+}
+
+.footer-link {
+  padding: 0 15px 0 15px;
+  color: #0f73c4;
+}
+
+
+
+
+

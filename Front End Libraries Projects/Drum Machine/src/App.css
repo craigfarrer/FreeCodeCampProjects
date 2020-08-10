@@ -1,0 +1,74 @@
+.App{
+  background-color: white;
+  text-align: center;
+}
+
+.drum-pad{
+  background-color: #06489c;
+  font-size: 30px;
+  color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #06489c;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.drum-pad:hover{
+  cursor: pointer;
+}
+
+.pad-clicked{
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #878786;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#drum-machine {
+  text-align: center;
+  background-color: #4e8dde;
+  width: 490px;
+  height: 490px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+#pad-container{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+#display{
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 130px;
+  padding: 2%;
+  margin: auto;
+  margin-top: 18px;
+}
+
+#title{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  width: 160px;
+  padding: 2%;
+  margin: auto;
+  margin-top: 10px;
+}
