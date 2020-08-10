@@ -8,7 +8,7 @@
    4. Exercise Tracker - [Run on Glitch](https://chill-abundant-aries.glitch.me/)
    5. File Metadata Microservice - [Run on Glitch](https://messy-flowery-grenadilla.glitch.me/)
    
-![Certificate](https://github.com/craigfarrer/API-MicroservicesProjects/blob/master/API-Certificate.PNG)
+![Certificate](https://github.com/craigfarrer/FreeCodeCampProjects/blob/master/API-Certificate.PNG?raw=true)
 
 ## Responsive Web Design Projects
 
@@ -18,7 +18,7 @@
    4. Build A Technical Documentation Page
    5. Build A Personal Portfolio Webpage
    
-![Certificate](https://github.com/craigfarrer/ResponsiveWebDesignProjects/blob/master/Certificate.PNG)
+![Certificate](https://github.com/craigfarrer/FreeCodeCampProjects/blob/master/Responsive-Certificate.PNG?raw=true)
 
 ## FreeCodeCamp Front End Libraries Projects
 
