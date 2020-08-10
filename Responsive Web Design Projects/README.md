@@ -6,4 +6,4 @@
    4. Build A Technical Documentation Page
    5. Build A Personal Portfolio Webpage
    
-![Certificate](/Certificate.png)
+![Certificate](https://github.com/craigfarrer/FreeCodeCampProjects/blob/master/Responsive-Certificate.PNG?raw=true)
