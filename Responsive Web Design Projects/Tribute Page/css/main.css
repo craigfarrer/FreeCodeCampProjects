@@ -1,0 +1,113 @@
+* {
+	-webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+body {
+	  margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron {
+	background-image: url("https://www.nme.com/wp-content/uploads/2020/01/metallica.jpg");
+	background-size: cover;
+	min-height: 80%;
+	margin: 0px;
+}
+
+.jumbotron #header {
+	font-family: 'Chela One', cursive;
+	font-weight: bold;
+    float: left;
+    color: white;;
+}
+
+@media only screen and (max-width:560px){
+
+  .jumbotron h1, .jumbotron div{
+    display: none;
+  }
+  
+  .jumbotron {
+    min-height: 200px;
+  }
+
+}
+
+.container {
+	text-align: center;
+	background-color: #FFDAA8;
+	margin: 0px;
+	width: 100%;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+   font-family: Arial, Helvetica, sans-serif;
+	color: #553101;
+}
+
+#description {
+	color: #553101;
+	font-weight: bold;
+}
+
+#img-div {
+  display: none;
+}
+
+#image {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+#content {
+   text-align: left;
+   margin-top: 20px;
+   font-size: 17px;
+	 font-family: Grotzec-Black;
+	 font-size: 1.25em;
+	margin: 50px 200;
+	text-align: justify;
+}
+
+#content a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#video {
+   padding: 0px;
+   background-color: #291f20;
+}
+
+#video h1{
+	color: #f9a300;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#video iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+	background-color:rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	height: 50px;
+	margin-top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer h4 {
+	margin: 0;
+	padding-top: 18px;
+}
